@@ -5,5 +5,8 @@
   "scripts": {
     "test": "node tests/smoke.test.js",
     "build": "node tests/smoke.test.js"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
   }
 }
